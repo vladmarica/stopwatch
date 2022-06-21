@@ -1,0 +1,4 @@
+{
+  "FMLModContainer": "coremod/FMLModContainer.js",
+  "ClientModLoader": "coremod/ClientModLoader.js"
+}

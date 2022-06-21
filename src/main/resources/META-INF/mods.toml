@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+modId="stopwatch"
+version="${file.jarVersion}"
+displayName="Stopwatch"
+logoFile="logo.png"
+authors="Quintinity"
+description='''
+A lightweight coremod for measuring and profiling the loading times of mods.
+'''
+
+[[dependencies.stopwatch]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.stopwatch]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
